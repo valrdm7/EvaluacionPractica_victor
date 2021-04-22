@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 17vmin;
+  pointer-events: none;
+  margin-top: 1.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 120s linear;
+  }
+}
+
+
+
+.App-header {
+  background-color: #35682d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.footer_vapp{
+  background-color: #bdecb6;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/********************************************************************************************************/
+/*Vic Styles*********************************************************************************************/
+
+.display-4{
+  color:white;
+}
+
+
+
+.tabla_v2{
+  width:70%;
+  max-width:1080px;
+  margin:0 auto;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.tabla_v{
+  width:100%;
+  max-width:1080px;
+  margin:0 auto;
+  margin-top:0rem;
+  margin-bottom: 0rem;
+  aling-items: center;
+  justify-content: center;
+}
